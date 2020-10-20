@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ui_login.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:background="@color/blue">
+            
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:src="@drawable/profil"
+                android:layout_gravity="center"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Hari Agus W"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:drawableStart="@drawable/user_profil"
+                android:drawableLeft="@drawable/user_profil"
+                android:textColorHint="#000"
+                android:textColor="#000"
+                android:background="@color/blue"
+                android:layout_marginTop="80dp"
+                android:layout_gravity="center"
+                android:hint="Username"
+                android:padding="10dp"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:inputType="textPassword"
+                android:drawableStart="@drawable/user_lock"
+                android:drawableLeft="@drawable/user_lock"
+                android:textColorHint="#000"
+                android:textColor="#000"
+                android:background="@color/blue"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:hint="Password"
+                android:padding="10dp"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn1"
+                android:background="@color/birudark"
+                android:text="LOGIN"
+                android:textColor="#fff"
+                android:layout_marginTop="25dp"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="100dp"
+                android:text="Forgot Password?"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
+
